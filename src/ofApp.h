@@ -12,6 +12,7 @@ class ofApp : public ofBaseApp{
 
 		void keyPressed(int key);
 		void drawChart();
+		void generateObjects();
 
 		ofFmodSoundPlayer m_soundPlayer; //loads and plays the music
 		ofSoundPlayer m_soundPlayerOF;
@@ -30,5 +31,21 @@ class ofApp : public ofBaseApp{
 		ofLight m_light;
 
 		ofVec3f m_userPos;
-		
+		vector<ofVec3f> m_rectPositions;
+		vector<ofVec3f> m_userTrail;
+
+		std::chrono::steady_clock::time_point m_kickTimer;
+		std::chrono::steady_clock::time_point m_pulseTimer;
+
+
+		ofColor m_backgorundColour;
+		int bg_r, bg_g, bg_b;
+
+		int m_mod;
+
+		vector<ofColor> m_colourPallette;
+		int currentColour;
+		int userColour;
+		int sphereColour;
+		float m_volume;
 };
