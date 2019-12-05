@@ -4,7 +4,7 @@ D. Zachary van Noppen
 
 The program created is a 3D journey of an object. Objects are spawned based on the drum beat. Every kick spawns a new sphere. Each sphere is sized based on the volume of the song. The background colour of the environment is changed based on the synth underlying the music.
 
-The user is able to look at the progression through the environment by clicking with the LEFT mouse button and dragging. This rotates the camera around the player sphere.
+The user is able to look at the progression through the environment by clicking with the LEFT mouse button and dragging. This rotates the camera around the player sphere. The player can also fast forward or rewind the song by pressing the left and right arrow keys.
 
 I decided to design the project this way as it is the simplest way I could think of to show progression through a story. Being able to look back at the progress made is very rewarding and seeing the environment change is interesting.
 
